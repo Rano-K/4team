@@ -13,12 +13,10 @@ public class Cal_reminder {
 		
 	}
 
-	public Cal_reminder(int firstNum, int secondNum, int reminder1, int reminder2) {
+	public Cal_reminder(int firstNum, int secondNum) {
 		super();
 		this.firstNum = firstNum;
 		this.secondNum = secondNum;
-		this.reminder1 = reminder1;
-		this.reminder2 = reminder2;
 		
 		result1(); //¸ò
 		result2(); //³ª¸ÓÁö
@@ -27,12 +25,12 @@ public class Cal_reminder {
 	//method
 	private void result1() {
 		reminder1 = this.firstNum / this.secondNum;
-		System.out.println(firstNum + "/" + secondNum + "=" + reminder1);
+		System.out.println(firstNum + " / " + secondNum + " = " + reminder1);
 	}
 	
 	private void result2() {
 		reminder2 = this.firstNum % this.secondNum;
-		System.out.println(firstNum + "%" + secondNum + "=" + reminder2);
+		System.out.println(firstNum + " % " + secondNum + " = " + reminder2);
 	}
 	
 
