@@ -8,7 +8,7 @@ public class Cal_reminder {
 	private int reminder1 = 0; //몫
 	private int reminder2 = 0; //나머지
 	
-	//constructor
+	//constructor생성자-main에서 생성자를 불러옴
 	public Cal_reminder() {
 		
 	}
