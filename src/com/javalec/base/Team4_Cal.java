@@ -5,6 +5,8 @@ import java.util.Scanner;
 import com.javalec.function.Cal_add;
 import com.javalec.function.Cal_reminder;
 import com.javalec.function.Cal_sub;
+import com.javalec.function.Cal_mul;
+import com.javalec.function.Cal_divide;
 
 public class Team4_Cal {
 
